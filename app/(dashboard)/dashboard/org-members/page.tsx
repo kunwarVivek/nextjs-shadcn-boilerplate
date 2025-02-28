@@ -236,7 +236,7 @@ export default function OrgMembersPage() {
         </div>
         
         {/* Role Switcher (for demo purposes) */}
-        <div className="bg-card p-4 rounded-lg border shadow-sm">
+        <div className="bg-card p-4 rounded-lg border shadow-xs">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
               {userRole === "org-admin" ? (

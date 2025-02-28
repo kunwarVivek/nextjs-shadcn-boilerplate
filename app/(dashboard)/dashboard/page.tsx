@@ -373,7 +373,7 @@ export default function DashboardPage() {
         {/* Dashboard Content */}
         <main className="p-4 md:p-6">
           {/* Role-specific welcome message */}
-          <div className="mb-6 bg-card p-4 rounded-lg border shadow-sm">
+          <div className="mb-6 bg-card p-4 rounded-lg border shadow-xs">
             {userRole === "platform-admin" && (
               <div className="flex items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">

@@ -66,7 +66,7 @@ export default function RegisterPage() {
       </div>
       
       <div className="flex-1 flex items-center justify-center py-12">
-        <div className="w-full max-w-md p-8 space-y-8 bg-card rounded-lg border shadow-sm">
+        <div className="w-full max-w-md p-8 space-y-8 bg-card rounded-lg border shadow-xs">
           <div className="text-center">
             <h1 className="text-2xl font-bold">Create your account</h1>
             <p className="text-muted-foreground mt-2">

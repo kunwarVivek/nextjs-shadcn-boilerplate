@@ -130,7 +130,7 @@ export default function OnboardingPage() {
             </p>
           </div>
           
-          <div className="bg-card rounded-lg border shadow-sm p-8">
+          <div className="bg-card rounded-lg border shadow-xs p-8">
             <Tabs value={activeTab} onValueChange={setActiveTab}>
               <TabsList className="grid grid-cols-3 mb-8">
                 <TabsTrigger value="company" disabled={activeTab !== "company" && activeTab !== "team" && activeTab !== "domain"}>

@@ -24,7 +24,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-b from-background to-muted">
+      <section className="py-20 bg-linear-to-b from-background to-muted">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Enterprise Management, Simplified
@@ -55,7 +55,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className="bg-card p-6 rounded-lg shadow-sm border">
+            <div className="bg-card p-6 rounded-lg shadow-xs border">
               <div className="bg-primary/10 p-3 rounded-full w-fit mb-4">
                 <Users className="h-6 w-6 text-primary" />
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             
             {/* Feature 2 */}
-            <div className="bg-card p-6 rounded-lg shadow-sm border">
+            <div className="bg-card p-6 rounded-lg shadow-xs border">
               <div className="bg-primary/10 p-3 rounded-full w-fit mb-4">
                 <Building2 className="h-6 w-6 text-primary" />
               </div>
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
             
             {/* Feature 3 */}
-            <div className="bg-card p-6 rounded-lg shadow-sm border">
+            <div className="bg-card p-6 rounded-lg shadow-xs border">
               <div className="bg-primary/10 p-3 rounded-full w-fit mb-4">
                 <CreditCard className="h-6 w-6 text-primary" />
               </div>
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             
             {/* Feature 4 */}
-            <div className="bg-card p-6 rounded-lg shadow-sm border">
+            <div className="bg-card p-6 rounded-lg shadow-xs border">
               <div className="bg-primary/10 p-3 rounded-full w-fit mb-4">
                 <BarChart3 className="h-6 w-6 text-primary" />
               </div>
@@ -99,7 +99,7 @@ export default function Home() {
             </div>
             
             {/* Feature 5 */}
-            <div className="bg-card p-6 rounded-lg shadow-sm border">
+            <div className="bg-card p-6 rounded-lg shadow-xs border">
               <div className="bg-primary/10 p-3 rounded-full w-fit mb-4">
                 <Shield className="h-6 w-6 text-primary" />
               </div>
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
             
             {/* Feature 6 */}
-            <div className="bg-card p-6 rounded-lg shadow-sm border">
+            <div className="bg-card p-6 rounded-lg shadow-xs border">
               <div className="bg-primary/10 p-3 rounded-full w-fit mb-4">
                 <Lock className="h-6 w-6 text-primary" />
               </div>
